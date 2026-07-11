@@ -197,19 +197,13 @@ function parseAuthors(authorsStr: string, highlightNames: string[]): Array<{ nam
       let name = author.trim();
 
       // Check for corresponding author marker
-      const isCorresponding = name.includes('*');
+      const isCorresponding = false;
 
       // Check for co-author marker (#)
       const isCoAuthor = name.includes('#');
 
       // Remove special markers from name
-      name = name.replace(/[*#]/g, '');
-
-      // Handle "Last, First" format
-      if (name.includes(',')) {
-        const parts = name.split(',').map(p => p.trim());
-        name = `${parts[1]} ${parts[0]}`;
-      }
+      name = name.replace(/#/g, '');
 
       name = cleanBibTeXString(name);
 
