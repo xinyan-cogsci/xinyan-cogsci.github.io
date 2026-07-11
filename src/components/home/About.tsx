@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import { useMessages } from '@/lib/i18n/useMessages';
 
@@ -20,13 +19,13 @@ export default function About({ content, title }: AboutProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
         >
-            <h2 className="text-2xl font-serif font-bold text-primary mb-4">{resolvedTitle}</h2>
-            <div className="text-neutral-700 dark:text-neutral-200 leading-relaxed">
+            <h2 className="text-2xl font-serif font-bold text-primary dark:text-white mb-4">{resolvedTitle}</h2>
+            <div className="text-neutral-700 dark:text-white leading-relaxed">
                 <ReactMarkdown
                     components={{
-                        h1: ({ children }) => <h1 className="text-3xl font-serif font-bold text-primary mt-8 mb-4">{children}</h1>,
-                        h2: ({ children }) => <h2 className="text-2xl font-serif font-bold text-primary mt-8 mb-4 border-b border-neutral-200 dark:border-neutral-800 pb-2">{children}</h2>,
-                        h3: ({ children }) => <h3 className="text-xl font-semibold text-primary mt-6 mb-3">{children}</h3>,
+                        h1: ({ children }) => <h1 className="text-3xl font-serif font-bold text-primary dark:text-white mt-8 mb-4">{children}</h1>,
+                        h2: ({ children }) => <h2 className="text-2xl font-serif font-bold text-primary dark:text-white mt-8 mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">{children}</h2>,
+                        h3: ({ children }) => <h3 className="text-xl font-semibold text-primary dark:text-white mt-6 mb-3">{children}</h3>,
                         p: ({ children }) => <p className="mb-4 last:mb-0">{children}</p>,
                         ul: ({ children }) => <ul className="list-disc list-inside mb-4 space-y-1 ml-4">{children}</ul>,
                         ol: ({ children }) => <ol className="list-decimal list-inside mb-4 space-y-1 ml-4">{children}</ol>,
@@ -44,16 +43,12 @@ export default function About({ content, title }: AboutProps) {
                                 {children}
                             </blockquote>
                         ),
-                        strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
+                        strong: ({ children }) => <strong className="font-semibold text-primary dark:text-white">{children}</strong>,
                         em: ({ children }) => <em className="italic text-neutral-600 dark:text-neutral-500">{children}</em>,
                     }}
                 >
                     {content}
                 </ReactMarkdown>
-            </div>
-            <div className="relative mt-10 h-48 overflow-hidden rounded-xl border border-neutral-200/70 dark:border-neutral-700/70 sm:h-64">
-                <Image src="/about-background.jpg" alt="A stylized night landscape" fill className="object-cover object-center opacity-90" sizes="(max-width: 1024px) 100vw, 66vw" />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/35 via-transparent to-transparent" />
             </div>
         </motion.section>
     );
