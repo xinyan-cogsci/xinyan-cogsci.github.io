@@ -1,5 +1,5 @@
 [site]
-title = "Xin Yan | Psychology Researcher"
+title = "Xin Yan"
 description = "Master's student in Psychology at Sun Yat-sen University."
 favicon = "/favicon.svg"
 last_updated = "July 11, 2026"
@@ -13,7 +13,6 @@ avatar = "/xin-yan.jpg"
 [social]
 email = "yanx59@mail2.sysu.edu.cn"
 location = "Guangzhou, China"
-location_url = "https://www.sysu.edu.cn/"
 location_details = ["Department of Psychology,", "Sun Yat-sen University, Guangzhou, China"]
 google_scholar = "https://scholar.google.com/citations?user=dyZbpk0AAAAJ&hl=zh-CN"
 github = "https://github.com/xinyan-cogsci"
