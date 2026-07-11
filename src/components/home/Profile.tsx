@@ -30,14 +30,14 @@ export default function Profile({ author, social }: ProfileProps) {
                 />
             </div>
 
-            <div className="text-center mb-6">
+            <div className="text-center mb-3">
                 <h1 className="text-3xl font-serif font-bold text-primary mb-2">{author.name}</h1>
-                <p className="text-lg text-accent font-medium mb-1">{author.title}</p>
-                <p className="text-neutral-600 mb-2">{author.institution}</p>
+                <p className="text-lg text-primary font-medium mb-1">{author.title}</p>
+                <p className="text-neutral-600 dark:text-neutral-300">{author.institution}</p>
             </div>
 
-            <div className="space-y-2 text-center text-sm">
-                {social.email && <p className="text-neutral-600 dark:text-neutral-400">{social.email}</p>}
+            <div className="space-y-1 text-center text-sm">
+                {social.email && <p className="text-neutral-700 dark:text-neutral-200">{social.email}</p>}
                 {social.google_scholar && (
                     <p><a href={social.google_scholar} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Google Scholar</a></p>
                 )}
