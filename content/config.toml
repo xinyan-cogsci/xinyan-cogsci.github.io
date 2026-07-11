@@ -12,10 +12,8 @@ avatar = "/xin-yan.jpg"
 
 [social]
 email = "yanx59@mail2.sysu.edu.cn"
-location = "Guangzhou, China"
-location_details = ["Department of Psychology,", "Sun Yat-sen University, Guangzhou, China"]
 google_scholar = "https://scholar.google.com/citations?user=dyZbpk0AAAAJ&hl=zh-CN"
-github = "https://github.com/xinyan-cogsci"
+cv = "/CV_Xin_Yan_SYSU_2026.pdf"
 
 [features]
 enable_likes = false
@@ -41,9 +39,3 @@ title = "Publications"
 type = "page"
 target = "publications"
 href = "/publications"
-
-[[navigation]]
-title = "CV"
-type = "page"
-target = "cv"
-href = "/cv"

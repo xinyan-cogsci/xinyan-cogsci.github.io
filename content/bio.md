@@ -1,5 +1,5 @@
-I am a second-year Master's student in the Department of Psychology at Sun Yat-sen University, China. My research investigates how the mind represents, selects, and retrieves information—from conscious perceptual contents to the flexible retrieval of cognitive maps.
+Hi, I’m Xin Yan (严欣). I am currently a second-year Master’s student in the Department of Psychology at Sun Yat-sen University, where I work with Dr. Xiaowei Ding. I also completed my undergraduate studies in psychology at Sun Yat-sen University and conducted my undergraduate thesis under Dr. Ding’s supervision.
 
-I use behavioral experiments, psychophysics, fMRI, eye-tracking, and multivariate methods to study cognition and the brain. I am especially interested in consciousness, attention, working memory, and cognitive maps.
+I am interested in how the human mind constructs, organizes, and uses internal representations to make sense of the world. My research interests span consciousness and human intelligence: how subjective experience arises from neural processes, how people learn and represent structured knowledge, and how these representations are flexibly transformed to support reasoning and adaptive behavior. Ultimately, I hope to better understand how cognitive and neural processes give rise to the richness and flexibility of human thought.
 
-Before beginning my Master's degree, I received a B.S. in Psychology from Sun Yat-sen University. Please feel free to contact me by [email](mailto:yanx59@mail2.sysu.edu.cn).
+Outside research, I enjoy bouldering, watching animated films and series, and playing video games. I am always happy to connect and exchange ideas, so please feel free to reach out if there is anything you would like to discuss.
